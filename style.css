@@ -22,8 +22,9 @@ body{
 .container .logo img{
   position: relative;
   z-index: 1;
-width: 30%;
-height: 30%;
+width: 20%;
+height:20%
+
 
 }
 
@@ -68,13 +69,84 @@ margin-top: -81px;
 padding: 0rem 0rem;
 }
 
-.social-inks{
+.social-links{
 
-  transform: rotate(-90deg);
-  position: absolute;
-  left: -80px;
-  bottom: -180px;
+position: fixed;
+color: #ffffff;
+bottom: 2%;
+font-size: 14px;
+margin-left: 20px;
+
 }
+
+.social-links a{
+  color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 8px 9px;
+  margin: 4px 5px;
+  transition: 1s;
+  text-decoration: none;
+
+}
+
+.social-links:hover{
+  color: #fcfc06;
+  transition: .5s;
+  translate: (0, 10px);
+
+}
+/* social media */
+.fa-whatsapp {
+  position: fixed;
+  color: #ffffff;
+  bottom: 2%;
+  margin-left: -500px;
+  border-radius: 50%;
+  padding: 10px 12px;
+  margin: 3px 1166px;
+  transition: 1s;
+  color:#25D366;
+  opacity: 90%;
+  
+
+}
+.fa-whatsapp:hover{text-decoration: none;
+  background-color:#fff;
+  color:#25D366;
+  font-size: 25px;
+  opacity: 100%;
+  box-shadow: rgba(0,0,0, 5);
+}
+
+.fa-wa a{text-decoration: none;}
+
+
+
+.social-links .fa-facebook-official:hover{
+background-color: #4267B2;
+color: #fff;
+border: #4267B2;}
+
+.social-links .fa-instagram:hover{background-image: linear-gradient(60deg,#F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4);
+  color: #fff;
+  border:#8a3ab9 ;
+}
+.social-links .fa-github:hover{background-color: #fff;
+  color: #000;
+  border:#fff;
+
+
+}
+.social-links .fa-linkedin:hover{background-color:  #0e76a8;
+  color: #fff;
+  border: #0e76a8;
+}
+
+
+
+
+
 
 
 
