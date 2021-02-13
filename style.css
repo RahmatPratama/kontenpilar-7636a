@@ -111,10 +111,12 @@ margin-left: 20px;
   margin-left: -500px;
   border-radius: 50%;
   padding: 10px 12px;
-  margin: 3px 1166px;
+  margin: 3px 1146px;
   transition: 1s;
-  color:#25D366;
+  background-color:#25D366;
   opacity: 90%;
+  color: #fff;
+  z-index: 1;
   
 
 }
@@ -155,15 +157,19 @@ border: #4267B2;}
   background-size: cover;
   background-position: center;
   margin-top: 600px;
+  background-repeat: no-repeat;
+  height: 100vh;
   
 }
 
-.services .container h3{
-  color: #000;
+.container h3{
+  color: #111111;
   margin-top: 20px;
+  padding: 20px;
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
+  text-transform: uppercase;
   
 }
 
@@ -196,9 +202,68 @@ border: #4267B2;}
 
 .services-counter .container{
   margin-top: 55px;
-  box-shadow:  0 10px 6px -6px #000;
+  box-shadow:  0 8px 6px -6px #000;
 
 }
+
+/* portfolio */
+
+.portfolio .container , .clients .container {
+  background-color: #fff;
+  height: 50vh;
+
+}
+
+  /* contact */
+  .contact{
+    background-color: black;
+    opacity: 90%;
+    background-size: cover;
+    margin-top: 20px;
+    bottom: 0;
+    display: flex;
+  }
+
+    .content .container {
+      
+      text-align: center;
+      margin: auto;
+    }
+
+    .content .container img {
+      width: 14px;
+      height: auto;
+    }
+
+  
+  .footer .container{
+    display: flex;
+ }
+
+ .footer{background-color: black;}
+
+ .footer .container span{
+   margin:auto;
+   font-size: small;
+   color: burlywood;
+  
+ }
+
+ .contact .page-break h3{
+   color:white;
+   line-height: 20px;
+ }
+
+ .contact p {color:white;}
+
+
+
+
+
+
+
+
+
 
   
 
